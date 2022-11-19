@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner {
+  background-color: #2572b5;
+  padding: 50px 0;
+}
+.banner p {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 200;
+}
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #fff;
+}
+
+.aboutus {
+  padding: 40px 0;
+}
+
+.aboutus p {
+  font-size: 26px;
+}
+
+strong {
+  color: #0094ff;
+  display: inline-block;
+}
+b {
+  color: #d700ff;
+  display: inline-block;
+}
+
+em {
+  color: #46c000;
+  display: inline-block;
+}
+
+i {
+  color: #c1f3a5;
+  display: inline-block;
+}
+span {
+  background-color: #0094ff;
+  color: white;
+  padding: 5px 30px;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+.service_section {
+  padding: 100px 0;
+}
+
+.service_box {
+  max-width: 33.3%;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.service_box h2 {
+  font-size: 30px;
+}
+
+.service_box p {
+  font-size: 21px;
+  font-weight: 100;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.service_box div {
+  background: #fcfcfc;
+  padding: 35px 20px;
+  border: 1px solid hsl(242deg 88% 28%);
+  border-radius: 15px;
+  box-shadow: 5px 5px 14px darkslateblue;
+}
